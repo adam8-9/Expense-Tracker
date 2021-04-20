@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\user\Documents\Bootcamp\expense tracker\style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Expense Tracker</h1>
+        <h2>Add A New Item:</h2>
+        <form class="form">
+
+            <input class="location" type="text" name="location" placeholder="Where was the expense made?" required>
+            <div id="details">
+                <input id="date" type="date" name="date" required>
+                <input id="amount" type="number" name="amount" placeholder="Amount spent" required>
+            </div>
+            <button id="submit">submit</button>
+
+
+        </form>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Amount</th>
+            </tr>
+        </thead>
+        <tbody class="dataContain">
+
+        </tbody>
+    </table>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

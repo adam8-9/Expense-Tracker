@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#name{
+    width: 509px;
+    margin-bottom: 1rem;
+}
+
+#details input{
+    width:250px;
+}
+form {
+    margin: 0 200px;
+    width: 400px;
+
+}
+form .location{
+  
+    width: 400px;
+
+}
+
+form #details{
+    
+    width: 408px;
+    display: flex;
+    margin-top: 20px;
+    
+}
+
+form #details input:nth-child(even){
+    margin-left:10px;
+}
+
+
+form #details input:nth-child(odd){
+    margin-right:10px;
+}
+
+.form button{
+    margin: 5%  45% 0;
+    padding:7px;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin:30px auto;
+    
+
+}
+
+table tr th{
+   width:200px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+table tr td{
+    border:1px solid black;
+    
+}
+
+tbody tr td:last-child{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
