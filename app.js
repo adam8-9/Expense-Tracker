@@ -7,24 +7,6 @@ const form = document.querySelector("form")
 const container = document.querySelector("#container")
 const dataContain = document.querySelector(".dataContain")
 
-
-
-/*form.addEventListener("submit", function (e) {
-    e.preventDefault();
-    let newtoDo = toDo.value;
-    console.log(newtoDo);
-    let appendtodo = document.createElement("li")
-    appendtodo.append(newtoDo);
-    container.append(appendtodo);
-    form.elements.todo.value = "";
-})
-
-clear.addEventListener("click", function (e) {
-    e.preventDefault();
-    container.innerHTML = "";
-
-})*/
-
 form.addEventListener("submit", function (e) {
     e.preventDefault();
     let places = place.value;
@@ -46,13 +28,6 @@ form.addEventListener("submit", function (e) {
     subdata3.append(`$${amounts}`, button)
     data.append(subdata1, subdata2, subdata3)
     dataContain.append(data)
-
-    //place.value = "";
-    // date.value = "";
-    //amount.value = "";
-    /*appendtodo.append(newtoDo);
-    container.append(appendtodo);
-    form.elements.todo.value = "";*/
 
     button.addEventListener("click", function (r) {
 
